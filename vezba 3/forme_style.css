@@ -1,0 +1,36 @@
+.maindiv{
+    padding-top: 10%;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    width: 55%; 
+    
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 15px;
+}
+label, input{
+    display: block;
+}
+label{
+    text-align: left;
+}
+input{
+    border: rgb(114, 114, 114) 1px solid;
+    border-radius: 3px;
+    background-color: rgb(238, 238, 238);
+}
+form{
+    margin-top: 40px;
+}
+.nesto{
+    margin: 3.5px;
+    display: inline-block;
+}
+#dugme{
+    background-color: rgb(101, 103, 255);
+}

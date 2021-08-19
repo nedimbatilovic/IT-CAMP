@@ -1,0 +1,47 @@
+.container{
+    border-radius: 35px;
+    font-family: monospace;
+    text-align: center;
+    padding: 5%;
+    font-size: 17px;
+    margin: auto;
+    width: 45%;
+}
+form{
+    margin-top: 40px;
+}
+label, input, textarea, submit{ 
+    display: block;
+}
+label{
+    text-align: left;
+}
+input{
+    border: 2px rgb(109, 109, 109) solid;
+    background-color: rgb(235, 235, 235);
+    border-radius: 4px;
+    width: 280px;
+    height: 28px;
+}
+textarea{
+    border: 2px rgb(109, 109, 109) solid;
+    background-color: rgb(235, 235, 235);
+    border-radius: 4px;
+    width: 588px;
+}
+.blocking{
+    display: inline-block;
+    margin: 5px;
+}
+#large_text{
+    margin-top: 20px;
+}
+#submit_button{
+    background-color: rgb(80, 80, 255);
+    color: white;
+    height: 32px;
+    width: 85px;
+} 
+#submit_button:hover{
+    background-color: rgb(60, 60, 255);
+}

@@ -1,0 +1,41 @@
+
+.divd{
+    height: 445px;
+    width: 350px;
+    margin: 5px;
+    padding: 5px;
+    border: black 3px solid;
+    border-radius: 15px;
+    background-color: rgb(36, 36, 36);
+}
+h1{
+    margin: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    color: white;
+    font-size: 30spx;
+}
+p{
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    font-family: monospace;
+    color: rgb(83, 83, 83);
+    font-size: 15px;
+}
+img{
+    margin: 5px;
+    border-radius: 15px;
+    width: 340px;
+    height: 190px;
+}
+i{
+    font-size: 50px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+i:hover{
+    color: rgb(67, 255, 67);
+}
+
