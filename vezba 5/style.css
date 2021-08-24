@@ -1,0 +1,33 @@
+.container{ 
+    font-family: monospace;
+    padding-top: 35px;
+    text-align: center;
+    font-size: 13px;    
+    margin: auto;
+}
+p{
+    color: rgb(71, 71, 71);
+    font-size: 15px;
+}
+.alldivs{
+    border: gray 1px solid; 
+    display: inline-block;
+    border-radius: 7px; 
+    text-align: left;
+    font-size: 10px;
+    padding: 16px;
+    height: 120px;
+    width: 350px;
+    margin: 11px;
+}
+button{
+    background-color: rgb(56, 56, 255);
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 45px;
+    color: white;
+    display: block;
+    height: 30px;
+    width: 85px;  
+}
