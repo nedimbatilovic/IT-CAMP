@@ -1,0 +1,20 @@
+div{
+    border: black 2px solid;
+    position: absolute;
+    width: 130px;
+    height: 600px;
+    top: 20px;
+}
+
+#div1{
+    left: 20px;
+}
+#div2{
+    left: 170px;
+}
+#div3{
+    left: 320px;
+}
+#div4{
+    left: 470px;
+}
