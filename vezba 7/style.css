@@ -1,0 +1,65 @@
+
+.headContainer{
+    font-family: sans-serif;
+    background-color: black;
+    padding-bottom: 8px;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 17px;
+    color: white;
+    margin: auto;
+    height: 48px;
+    width: 45.4%;
+}
+.container{
+    border: black 2px solid;
+    font-family: sans-serif;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 15px;
+    margin: auto;
+    width: 45%;
+}
+label{
+    margin-top: 12px;
+    font-size: 13.5px;
+    display: block;
+}
+input{
+    border: rgb(224, 224, 224) 1px solid;
+    height: 35px;
+    width: 290px;
+}
+.inputSection{
+    margin: 8px;
+    display: inline-block;
+}
+form{
+    margin-left: 26px;
+}
+.radioButton{
+    margin-left: 7px;
+    height: 15px;
+    width: 15px;
+    display: inline;
+}
+.radioLabel{
+    display: inline;
+    margin-bottom: 10px;
+}
+.pol{
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 1px;
+    display: block;
+    font-size: 13.5px;
+}  
+#captcha{
+    margin: 8px;
+    width: 290px;
+    display: block;
+}
+#poll{
+    display: inline-block;
+    width: 315px;
+}
