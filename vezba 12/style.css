@@ -1,0 +1,20 @@
+#mapa{
+    border: 0px white solid;
+    border-radius: 10px;
+    width: 970px;
+    height: 600px;
+}
+.container{
+    margin: 15px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.inputSection{
+    border: black 2px solid;
+    width: 500px;
+    text-align: left;
+}
+#minip{
+    color: rgb(126, 126, 126);
+}
