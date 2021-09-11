@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tariff {
+    padding: 1px;
+    border: 2px blue solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.tariff p{
+    margin: 0px;
+}
+.tariffElement1, .tariffElement2 {
+    padding: 10px;
+}
+.tariffElement1 {
+    background-color: blue;
+    
+}
+.tariffElement1 p {
+    color: white;
+}
+.cardSection {
+    margin-top: 75px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px;
+    
+}
+.card {
+    display: flex;
+    border: 2px gray solid;
+    border-radius: 10px;
+    width: 20%;
+    height: 50vh;
+    padding: 20px;
+    flex-direction: column;
+}
+.card h1, h5 {
+    margin: 10px 0px;
+}
+.card ul {
+    padding: 0px;
+}
+.cardTop {
+    border-bottom: 1px gray solid;
+}
+.cardMid {
+    padding-left: 15px;
+}
+.cardMid li {
+    margin: 5px 0px;
+}
+.cardInter {
+    height: 100%;
+    border: 1px red solid;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+.buttonB {
+    background-color: blue;
+    border-radius: 10px;
+    padding: 15px;
+    align-self: bottom;
+}
+.buttonB p {
+    margin: 0px;
+    color: white;
+}
+.buttonB:hover {
+    cursor: pointer;
+}
