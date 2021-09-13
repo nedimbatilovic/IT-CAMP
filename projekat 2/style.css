@@ -1,19 +1,23 @@
 body{
+    display: flex;
     font-family: "Lato", sans-serif;
     margin: 0px;
     display: flex;
-    align-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .navbar{
-    border: 1px red solid;
+    position: sticky;
     width: 100%;
     height: 2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 7%;
+    background-color: #2d6760;
 }
-#logo{
-    
+#logo {
+    color: white;
 }
 .navList{
     display: flex;
@@ -21,15 +25,20 @@ body{
     align-items: center;
     
 }
-.navButtonArea{
+.navList a{
     text-decoration: none;
     padding: 10px;
+    color: #d2ece9;
 }
-.navButton{
+.navButton:hover {
     
 }
-.navButton:hover{
-    background-color: aqua;
+.title {
+    width: 100%;
+    height: 60vh;
+    background-color: black;
 }
-
-
+.background {
+    width: 100%;
+    height: 100%;
+}

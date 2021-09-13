@@ -42,7 +42,7 @@ body {
 }
 .card {
     display: flex;
-    border: 2px gray solid;
+    border: 2px rgb(207, 207, 207) solid;
     border-radius: 10px;
     width: 20%;
     height: 50vh;
@@ -52,30 +52,31 @@ body {
 .card h1, h5 {
     margin: 10px 0px;
 }
+.card h1 {
+    font-size: 40px;
+}
+.card h5 {
+    color: gray;
+}
 .card ul {
     padding: 0px;
 }
 .cardTop {
-    border-bottom: 1px gray solid;
+    border-bottom: 1px rgb(207, 207, 207) solid;
 }
 .cardMid {
     padding-left: 15px;
 }
 .cardMid li {
-    margin: 5px 0px;
-}
-.cardInter {
-    height: 100%;
-    border: 1px red solid;
-    display: flex;
-    flex-direction: column;
-    align-items: space-between;
+    margin: 10px 0px;
 }
 .buttonB {
     background-color: blue;
     border-radius: 10px;
     padding: 15px;
     align-self: bottom;
+    width: 90%;
+    height: 35%;
 }
 .buttonB p {
     margin: 0px;
@@ -83,4 +84,13 @@ body {
 }
 .buttonB:hover {
     cursor: pointer;
+}
+.cardBottom1 {
+    padding-top: 38.1%;
+}
+.cardBottom2 {
+    padding-top: 29%;
+}
+.cardBottom3 {
+    padding-top: 20%;
 }
