@@ -1,0 +1,38 @@
+.loginForm {
+  background-color: #535353;
+  font-family: monospace;
+  border: 1px red solid;
+  margin: auto;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 15px;
+  width: 20%;
+}
+
+.loginForm form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.loginForm label {
+  font-size: 15px;
+  color: white;
+  margin: 4px 0;
+}
+
+button {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */

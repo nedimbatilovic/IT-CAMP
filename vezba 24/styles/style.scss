@@ -1,0 +1,57 @@
+.container {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0px 25%;
+}
+.innerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.genButton {
+    margin: 20px 0;
+    width: 30%;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+}
+
+#grad1 {
+    background: linear-gradient(to right, aqua, lightgreen);
+    box-shadow: 5px 5px 5px 5px red;
+}
+#grad2 {
+    background: linear-gradient(to right, orange, red);
+}
+#grad3 {
+    background: linear-gradient(to right, blue, purple);
+}
+#grad4 {
+    background: linear-gradient(to right, darkorchid, orange);
+}
+#grad5 {
+    background: linear-gradient(to right, lightgreen, darkgreen);
+}
+#grad6 {
+    background: linear-gradient(to right, green, lime);
+}
+#grad7 {
+    background: linear-gradient(to right, blue, purple);
+}
+#grad8 {
+    background: linear-gradient(to right, black, gray);
+}
+#grad9 {
+    background: linear-gradient(to right, hsl(240, 100%, 71%), blue);
+}
+#grad10 {
+    background: linear-gradient(to right, pink, red);
+}
+#grad11 {   
+    background: linear-gradient(to right, red, pink);
+}
+// box shadow

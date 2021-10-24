@@ -1,0 +1,25 @@
+.loginForm {
+    background-color: rgb(83, 83, 83);
+    font-family: monospace;
+    border: 1px red solid;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    width: 20%;
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    label {
+        font-size: 15px;
+        color: white;
+        margin: 4px 0;
+    }
+}
+button {
+    margin-top: 20px;
+    border-radius: 10px;
+}
