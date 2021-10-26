@@ -83,6 +83,22 @@
                 </div>
 
                 <div>
+                    <label for="verificationCode">Verification Code</label>
+                    <i class="fa-solid fa-address-card"></i>
+                    <input 
+                        type="text"
+                        name="verification"
+                        id="verification"
+                        placeholder="Verification code"
+                    />
+
+                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                    <i class="far fa-check-circle success-icon"></i>
+
+                    <div class="error"></div>
+                </div>
+
+                <div>
                     <label for="password">Password</label>
                     <i class="fas fa-lock"></i>
                     
@@ -90,7 +106,7 @@
                         type="password"
                         name="password"
                         id="password"
-                        placeholder="Password here"
+                        placeholder="Password"
                     />
                     
                     <i class="fas fa-exclamation-circle failure-icon"></i>
