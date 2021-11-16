@@ -163,26 +163,19 @@
 // }
 
 
-hn = [];
+// liste = ["apple", "banana", "kiwi"]
 
+// var1 = {
+//     firstname: "aaa",
+//     lastname: "bbb",
+//     nesto:true
+// };
 
-limit = 5;
-beginning = 145;
-help = 0;
-sum = 0;
+unos = prompt("enter a word: ");
+var1 = "";
 
-while (true) {
-    while (true) {
-        help = beginning.toString();
-        for (i=0; i<help.length; i++) {
-            console.log(help[i]);
-            sum += parseInt(help[i]) ** 2;
-            console.log(sum);
-        }
-        beginning = sum;
-    }
-    console.log(beginning);
-    beginning++;
+for (i=unos.length - 1; i>=0; i--) {
+    var1 += unos[i];
 }
 
-
+console.log(var1);
