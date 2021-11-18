@@ -165,17 +165,20 @@
 
 // liste = ["apple", "banana", "kiwi"]
 
-// var1 = {
-//     firstname: "aaa",
-//     lastname: "bbb",
-//     nesto:true
-// };
+ //var1 = {
+ //    firstname: "aaa",
+ //    lastname: "bbb",
+ //    nesto:true
+ //};
 
-unos = prompt("enter a word: ");
-var1 = "";
+fact = parseInt(prompt("Enter a num: "));
+result = 1;
 
-for (i=unos.length - 1; i>=0; i--) {
-    var1 += unos[i];
+
+for (i = 1; i <= fact; i++) {
+    result *= i;
 }
 
-console.log(var1);
+console.log(result);
+
+
