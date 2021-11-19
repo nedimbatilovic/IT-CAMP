@@ -173,8 +173,6 @@
 
 fact = parseInt(prompt("Enter a num: "));
 result = 1;
-
-
 for (i = 1; i <= fact; i++) {
     result *= i;
 }
