@@ -186,3 +186,12 @@
 //console.log(formatter(prompt("word: ")));
 
 
+function calculateDogAge(age) {
+    newage = 0;
+    for (i = 0; i <= age; i++) {
+        newage += 7;
+    }
+    console.log(newage);
+}
+
+console.log(calculateDogAge(prompt("Enter age: ")));
