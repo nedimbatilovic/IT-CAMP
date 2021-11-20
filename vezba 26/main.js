@@ -179,9 +179,10 @@
 
 //console.log(result);
 
-function formatter(string) {
-    return string[0].toUpperCase() + string.substr(1).toLowerCase();
-}
+//function formatter(string) {
+//    return string[0].toUpperCase() + string.substr(1).toLowerCase();
+//}
 
-console.log(formatter(prompt("word: ")));
+//console.log(formatter(prompt("word: ")));
+
 
