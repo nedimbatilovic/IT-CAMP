@@ -186,12 +186,26 @@
 //console.log(formatter(prompt("word: ")));
 
 
-function calculateDogAge(age) {
-    newage = 0;
-    for (i = 1; i <= age; i++) {
-        newage += 7;
-    }
-    console.log(newage);
+// function calculateDogAge(age) {
+//     newage = 0;
+//     for (i = 1; i <= age; i++) {
+//         newage += 7;
+//     }
+//     console.log(newage);
+// }
+
+// calculateDogAge(prompt("Enter age: "));
+
+// function ageConversion(fatherAge, sonAge) {
+//     difference = fatherAge-sonAge;
+//     difference2 = difference-sonAge;
+//     console.log(`result ${difference2}`);
+// }
+
+// ageConversion(55, 30);
+
+function thirdAngle(firstAngle, secondAngle) {
+    console.log(180 - (firstAngle+secondAngle));
 }
 
-calculateDogAge(prompt("Enter age: "));
+thirdAngle(30, 30);
