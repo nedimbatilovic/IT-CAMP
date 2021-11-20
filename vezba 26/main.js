@@ -171,12 +171,17 @@
  //    nesto:true
  //};
 
-fact = parseInt(prompt("Enter a num: "));
-result = 1;
-for (i = 1; i <= fact; i++) {
-    result *= i;
+//fact = parseInt(prompt("Enter a num: "));
+//result = 1;
+//for (i = 1; i <= fact; i++) {
+//    result *= i;
+//}
+
+//console.log(result);
+
+function formatter(string) {
+    return string[0].toUpperCase() + string.substr(1).toLowerCase();
 }
 
-console.log(result);
-
+console.log(formatter(prompt("word: ")));
 
