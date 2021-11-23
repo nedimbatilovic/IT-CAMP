@@ -216,4 +216,31 @@
 
 // liters(6);
 
-function countSheep()
+// niz = [true,  true,  true,  false,
+//     true,  true,  true,  true ,
+//     true,  false, true,  false,
+//     true,  false, false, true ,
+//     true,  true,  true,  true ,
+//     false, false, true,  true]
+
+// function countSheep(arrayOfSherep) {
+//     brojac = 0;
+//     for (sheep of arrayOfSherep) {
+//         if (sheep) {
+//             brojac++;
+//         }
+//     }
+//     return brojac;
+// }
+
+// sheepL = countSheep(niz);
+// console.log(sheepL);
+
+const sequenceSum = (begin, end, step) => {
+    sum = 0;
+    for(i=begin; i<=end; i++) {
+      sum += i;
+      i += step-1;
+    }
+    return sum;
+};
