@@ -204,8 +204,16 @@
 
 // ageConversion(55, 30);
 
-function thirdAngle(firstAngle, secondAngle) {
-    console.log(180 - (firstAngle+secondAngle));
-}
+// function thirdAngle(firstAngle, secondAngle) {
+//     console.log(180 - (firstAngle+secondAngle));
+// }
 
-thirdAngle(30, 30);
+// thirdAngle(30, 30);
+
+// liters(time) {
+//     console.log(parseInt(time*0.5));
+// }
+
+// liters(6);
+
+function countSheep()
