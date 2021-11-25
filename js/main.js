@@ -236,11 +236,36 @@
 // sheepL = countSheep(niz);
 // console.log(sheepL);
 
-const sequenceSum = (begin, end, step) => {
-    sum = 0;
-    for(i=begin; i<=end; i+=step) {
-      sum += i;
-    }
-    return sum;
-};
+// const sequenceSum = (begin, end, step) => {
+//     sum = 0;
+//     for(i=begin; i<=end; i+=step) {
+//       sum += i;
+//     }
+//     return sum;
+// };
 
+// function between(a, b) {
+//     arr = []
+//     for(i=a, i<=b; i++) {
+//         arr.join()
+//     }
+// }
+
+
+// function elevatorDistance(array) {
+//     debugger;
+//     var distance = 0;
+//     for (var i = 0; i < array.length - 1; i++) {
+//       distance += Math.abs(array[i] - array[i + 1]);
+//     }
+//     return distance;
+//   }
+
+// aaa = elevatorDistance([7,1,7,1]);
+// console.log(aaa);
+
+var num = 123;
+var a = num.toString();
+b = parseInt(a);
+console.log(a[1]);
+console.log(b);
