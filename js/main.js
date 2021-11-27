@@ -320,6 +320,13 @@ arrara = [
     }
 ]
 
-let makeStrings = (arr) => newarr = arr.filter(el => el.age > 10);
-
+let makeStrings = (arr) => newarr = arr.map(function validAge(el) {
+    if (el.age > 18) {
+        return `${el.name} ok`;
+    } else {
+        return `${el.name} no`;
+    }
+}); 
+    
 console.log(makeStrings(arrara));
+
