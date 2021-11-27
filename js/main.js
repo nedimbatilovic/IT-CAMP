@@ -288,3 +288,7 @@
 
 // console.log(doublenum(arr));
 
+let stringItUp = (arr) => stringedUp = arr.map((el) => el.toString());
+
+console.log(stringItUp([2, 5, 100])); // ["2", "5", "100"]
+
