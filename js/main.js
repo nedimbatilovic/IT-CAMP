@@ -264,8 +264,27 @@
 // aaa = elevatorDistance([7,1,7,1]);
 // console.log(aaa);
 
-var num = 123;
-var a = num.toString();
-b = parseInt(a);
-console.log(a[1]);
-console.log(b);
+// var num = 123;
+// var a = num.toString();
+// b = parseInt(a);
+// console.log(a[1]);
+// console.log(b);
+
+// osoba = {
+//     name: "aha",
+//     age: 1,
+//     sayhi: function() {
+//         console.log(this.age);
+//     },
+//     id: 123
+// }
+
+// osoba.sayhi();
+
+// arr = [2, 5, 100, 23];
+// function doublenum(arr) {
+//     return newarr = arr.map(function(el) { return el*2; });    
+// }
+
+// console.log(doublenum(arr));
+

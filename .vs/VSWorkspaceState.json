@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\vezba 26"
+    "\\js",
+    "\\js\\styles"
   ],
+  "SelectedNode": "\\js\\styles\\style.scss",
   "PreviewInSolutionExplorer": false
 }

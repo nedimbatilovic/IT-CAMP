@@ -1,7 +1,4 @@
-div {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(white), to(blue));
-  background-image: linear-gradient(to bottom right, white, blue);
-  width: 800px;
-  height: 700px;
+.container {
+  border: solid red 1px;
 }
 /*# sourceMappingURL=style.css.map */
