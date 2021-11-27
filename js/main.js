@@ -288,7 +288,38 @@
 
 // console.log(doublenum(arr));
 
-let stringItUp = (arr) => stringedUp = arr.map((el) => el.toString());
 
-console.log(stringItUp([2, 5, 100])); // ["2", "5", "100"]
+// let stringItUp = (arr) => stringedUp = arr.map((el) => el.toString());
 
+// console.log(stringItUp([2, 5, 100])); // ["2", "5", "100"]
+
+// let fiveAndGreaterOnly = (arr) => newarr = arr.filter(el => el >= 5);
+
+// console.log(fiveAndGreaterOnly([3, 6, 8, 2])); // [6, 8]
+
+arrara = [
+    {
+        name: "Angelina Jolie",
+        age: 80
+    },
+    {
+        name: "Eric Jones",
+        age: 2
+    },
+    {
+        name: "Paris Hilton",
+        age: 5
+    },
+    {
+        name: "Kayne West",
+        age: 16
+    },
+    {
+        name: "Bob Ziroll",
+        age: 100
+    }
+]
+
+let makeStrings = (arr) => newarr = arr.filter(el => el.age > 10);
+
+console.log(makeStrings(arrara));
