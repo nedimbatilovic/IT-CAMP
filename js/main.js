@@ -320,13 +320,26 @@ arrara = [
     }
 ]
 
-let makeStrings = (arr) => newarr = arr.map(function validAge(el) {
-    if (el.age > 18) {
-        return `${el.name} ok`;
-    } else {
-        return `${el.name} no`;
-    }
-}); 
+// let makeStrings = (arr) => newarr = arr.map(function validAge(el) {
+//     if (el.age > 18) {
+//         return `${el.name} ok`;
+//     } else {
+//         return `${el.name} no`;
+//     }
+// }); 
     
-console.log(makeStrings(arrara));
+// console.log(makeStrings(arrara));
 
+// let makeStrings = (arr) => newarr = arr.map((el) => el.name);
+
+// console.log(makeStrings(arrara));
+
+let peopleWhoBelongToTheIlluminati = (arr) => arr.filter(el => el.member === true);
+
+console.log(peopleWhoBelongToTheIlluminati([
+    { name: "Angelina Jolie", member: true },
+    { name: "Eric Jones", member: false },
+    { name: "Paris Hilton", member: true },
+    { name: "Kayne West", member: false },
+    { name: "Bob Ziroll", member: true }
+]));
