@@ -34,7 +34,7 @@
 //     }
 //     else if (choice === 2) {
 //         spList.pop();
-//     } 
+//     }
 //     else {
 //         break;
 //     }
@@ -44,7 +44,7 @@
 //     alert("paran broj")
 // } else {
 //     alert("neparan broj");
-// }    
+// }
 
 // input = parseInt(prompt("Enter a number: "));
 
@@ -162,14 +162,13 @@
 //     console.log("nedeljiv");
 // }
 
-
 // liste = ["apple", "banana", "kiwi"]
 
- //var1 = {
- //    firstname: "aaa",
- //    lastname: "bbb",
- //    nesto:true
- //};
+//var1 = {
+//    firstname: "aaa",
+//    lastname: "bbb",
+//    nesto:true
+//};
 
 //fact = parseInt(prompt("Enter a num: "));
 //result = 1;
@@ -184,7 +183,6 @@
 //}
 
 //console.log(formatter(prompt("word: ")));
-
 
 // function calculateDogAge(age) {
 //     newage = 0;
@@ -251,7 +249,6 @@
 //     }
 // }
 
-
 // function elevatorDistance(array) {
 //     debugger;
 //     var distance = 0;
@@ -283,11 +280,10 @@
 
 // arr = [2, 5, 100, 23];
 // function doublenum(arr) {
-//     return newarr = arr.map(function(el) { return el*2; });    
+//     return newarr = arr.map(function(el) { return el*2; });
 // }
 
 // console.log(doublenum(arr));
-
 
 // let stringItUp = (arr) => stringedUp = arr.map((el) => el.toString());
 
@@ -300,25 +296,25 @@
 arrara = [
     {
         name: "Angelina Jolie",
-        age: 80
+        age: 80,
     },
     {
         name: "Eric Jones",
-        age: 2
+        age: 2,
     },
     {
         name: "Paris Hilton",
-        age: 5
+        age: 5,
     },
     {
         name: "Kayne West",
-        age: 16
+        age: 16,
     },
     {
         name: "Bob Ziroll",
-        age: 100
-    }
-]
+        age: 100,
+    },
+];
 
 // let makeStrings = (arr) => newarr = arr.map(function validAge(el) {
 //     if (el.age > 18) {
@@ -326,20 +322,29 @@ arrara = [
 //     } else {
 //         return `${el.name} no`;
 //     }
-// }); 
-    
+// });
+
 // console.log(makeStrings(arrara));
 
 // let makeStrings = (arr) => newarr = arr.map((el) => el.name);
 
 // console.log(makeStrings(arrara));
 
-let peopleWhoBelongToTheIlluminati = (arr) => arr.filter(el => el.member === true);
+// let peopleWhoBelongToTheIlluminati = (arr) => arr.filter(el => el.member === true);
 
-console.log(peopleWhoBelongToTheIlluminati([
-    { name: "Angelina Jolie", member: true },
-    { name: "Eric Jones", member: false },
-    { name: "Paris Hilton", member: true },
-    { name: "Kayne West", member: false },
-    { name: "Bob Ziroll", member: true }
-]));
+// console.log(peopleWhoBelongToTheIlluminati([
+//     { name: "Angelina Jolie", member: true },
+//     { name: "Eric Jones", member: false },
+//     { name: "Paris Hilton", member: true },
+//     { name: "Kayne West", member: false },
+//     { name: "Bob Ziroll", member: true }
+// ]));
+
+// aaa = document.getElementById("mainText");
+// // aaa.innerText = "aaaaaaaaaaaaaaaaaaa";
+// aaa.style.backgroundColor = "red";
+
+const handler = () => {
+    el = document.getElementById("paragr");
+    el.style.backgroundColor = "green";
+};
