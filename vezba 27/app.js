@@ -24,3 +24,25 @@
 //         container.appendChild(h4);
 //     }
 // });
+
+a = [121, 144, 19, 161, 19, 144, 19, 11];
+b = [121, 14641, 20736, 361, 25921, 361, 20736, 361];
+
+function comp(array1, array2) {
+    bools = [];
+    for (i = 0; i < array1.length; i++) {
+        if (array2.includes(array1[i] ** 2)) {
+            bools.push(true);
+        } else {
+            bools.push(false);
+        }
+    }
+
+    if (bools.includes(true)) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+comp(a, b);
